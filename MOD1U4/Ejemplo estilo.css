@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase; /*mayuscula*/background-color: blanchedalmond;
+    text-align: center;
+
+}
+.Destacados{
+    font-size: 25px;
+    font-weight: bold;
+    color: darkgreen;
+}
+.Destacado1{
+    font-size: 50px; 
+    color:cadetblue;
+    font-weight: bolder; 
+    color: brown;
+}
+#caja{
+    background-color: black;
+    color: aliceblue;
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 15px solid blue;
+}
+h3{ text-transform: uppercase; /*mayuscula*/background-color: rgb(26, 23, 18);
+    text-align: center;}
