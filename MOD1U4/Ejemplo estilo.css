@@ -1,31 +1,74 @@
-h1{
+h1 {
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
     text-align: center;
 }
-h2{
-    text-transform: uppercase; /*mayuscula*/background-color: blanchedalmond;
+
+h2 {
+    text-transform: uppercase;
+    /*mayuscula*/
+    background-color: blanchedalmond;
     text-align: center;
 
 }
-.Destacados{
+
+.Destacados {
     font-size: 25px;
     font-weight: bold;
     color: darkgreen;
 }
-.Destacado1{
-    font-size: 50px; 
-    color:cadetblue;
-    font-weight: bolder; 
+
+.Destacado1 {
+    font-size: 50px;
+    color: cadetblue;
+    font-weight: bolder;
     color: brown;
 }
-#caja{
-    background-color: black;
-    color: aliceblue;
-    width: 25%;
-    padding: 50px;
-    box-sizing: border-box;
-    border: 15px solid blue;
+
+#caja {
+    width: 300px;
+    height: 300px;
+    /*background-color: rgb(60, 96, 126);*/
+    background: #271414;
+    background: linear-gradient(3deg, #271414 54%, #408840 80%);
+    background: -webkit-linear-gradient(3deg, #271414 54%, #408840 80%);
+    background: -moz-linear-gradient(3deg, #271414 54%, #408840 80%);
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    box-shadow: 21px -11px 14px -5px rgba(212, 75, 75, 0.61);
+    -webkit-box-shadow: 21px -11px 14px -5px rgba(212, 75, 75, 0.61);
+    -moz-box-shadow: 21px -11px 14px -5px rgba(212, 75, 75, 0.61);
+    border-radius: 200px 0px 200px 0px;
+    -webkit-border-radius: 200px 0px 200px 0px;
+    -moz-border-radius: 200px 0px 200px 0px;
+    border: 36px ridge #50ffa4;
 }
-h3{ text-transform: uppercase; /*mayuscula*/background-color: rgb(26, 23, 18);
-    text-align: center;}
+
+h3 {
+    text-transform: uppercase;
+    /*mayuscula*/
+    background-color: rgb(26, 23, 18);
+    text-align: center;
+}
+
+.texto {
+    background-color: yellowgreen;
+    padding: 10px;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 35px;
+    -webkit-column-gap: 35px;
+    -moz-column-gap: 35px;
+    column-rule: 2px dotted rgba(246, 244, 244, 0.88);
+    -webkit-column-rule: 2px dotted rgba(246, 244, 244, 0.88);
+    -moz-column-rule: 2px dotted rgba(246, 244, 244, 0.88);
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img {
+    align-items: center;
+    text-align: center;
+
+}
