@@ -1,7 +1,8 @@
 .contenedor{
 	background-color: white;
 	border-style:ridge;
-	display:inline-flex
+	display:inline-flex;
+	align-content: space-between;
 	
 }
 
