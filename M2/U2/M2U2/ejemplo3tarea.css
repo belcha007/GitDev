@@ -1,0 +1,44 @@
+.contenedor{
+	background-color: white;
+	border-style:ridge;
+	display:inline-flex
+	
+}
+
+.item1{
+	background-color: #fd0707;
+	width: 100px;
+	height: 100px;
+	display: inline-flex;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+    margin:auto;
+	align-items: center;
+	justify-content: center;
+}
+.item2{
+	display: flex;
+	background-color: rgb(16, 88, 221);
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+    margin-inline:300px;
+	align-items: center;
+	justify-content: center;
+}
+
+.item3{
+	display: flex;
+	background-color: rgb(16, 219, 84);
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+    margin:auto;
+	align-items: center;
+	justify-content: center;
+}
